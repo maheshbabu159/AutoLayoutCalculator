@@ -17,6 +17,9 @@
 		18B47C0E1E54EA8300A5744C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B47C0C1E54EA8300A5744C /* Main.storyboard */; };
 		18B47C101E54EA8300A5744C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B47C0F1E54EA8300A5744C /* Assets.xcassets */; };
 		18B47C131E54EA8300A5744C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B47C111E54EA8300A5744C /* LaunchScreen.storyboard */; };
+		18F123171EA2C08400324BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F123161EA2C08400324BBE /* User.swift */; };
+		18F123181EA2C08400324BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F123161EA2C08400324BBE /* User.swift */; };
+		18F123191EA2C08400324BBE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F123161EA2C08400324BBE /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,7 @@
 		18B47C0F1E54EA8300A5744C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B47C121E54EA8300A5744C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B47C141E54EA8300A5744C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F123161EA2C08400324BBE /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 				18B47C0F1E54EA8300A5744C /* Assets.xcassets */,
 				18B47C111E54EA8300A5744C /* LaunchScreen.storyboard */,
 				18B47C141E54EA8300A5744C /* Info.plist */,
+				18F123161EA2C08400324BBE /* User.swift */,
 			);
 			path = CalculatorCodeChallenge;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				1848E88C1E57C9EB00E244EB /* ViewController.swift in Sources */,
 				1848E8761E57B01300E244EB /* CalculatorCodeChallengeUITests.swift in Sources */,
+				18F123181EA2C08400324BBE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +282,7 @@
 			files = (
 				1848E88D1E57C9F200E244EB /* ViewController.swift in Sources */,
 				1848E8841E57C96200E244EB /* CalculatorCodeChallengeTests.swift in Sources */,
+				18F123191EA2C08400324BBE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +292,7 @@
 			files = (
 				18B47C0B1E54EA8300A5744C /* ViewController.swift in Sources */,
 				18B47C091E54EA8300A5744C /* AppDelegate.swift in Sources */,
+				18F123171EA2C08400324BBE /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
