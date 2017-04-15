@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIiewController {
+class ViewController: UIViewController {
     let constantNumber = 12.61
     
     @IBOutlet var resultLablse: UILabel!
