@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     
-    @IBAction func numberButtonClick(sender: AnyObject) {
+    @IBAction func numberButtonClick(_ sender: AnyObject) {
         let button = sender as! UIButton
         let resultValue = Double(button.tag) + constantNumber
         resultLable.text = "Result = \(resultValue)"
