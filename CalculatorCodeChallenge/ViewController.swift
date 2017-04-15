@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     let constantNumber = 12.61
     
-    
+    @IBOutlet var resultLablse: UILabel!
+
     @IBOutlet var resultLable: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
